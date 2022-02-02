@@ -39,7 +39,7 @@ public class Parte2 {
         aux2 = new HashSet<>(l2);
         ambas = new HashSet<>(l1);
         una = new HashSet<>(aux1);
-
+        
         aux1.removeAll(l2);
         aux2.removeAll(l1);
         una.addAll(aux1);
